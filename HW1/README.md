@@ -1,4 +1,4 @@
-# Домашние задание №1
+# Домашние задание №1: Создание и нормализация базы данных
 ## Студент: Глазков Тимур Михайлович
 
 # Задачи:
@@ -15,7 +15,7 @@
 # №1 Структура БД:
 ![](database_structure.png)
 
-## Так же структура БД представлен в PDF формате в файле [database_structure.pdf](https://github.com/timmyAlvice/MIPT-DataBase-Projects/blob/master/HW1/database_structure.pdf)
+## Так же структура БД представлен в PDF формате в файле [database_structure.pdf](database_structure.pdf)
 
 ---
 
@@ -26,7 +26,7 @@
 
 3. Далее таблица была приведена к **3НФ** путём отделения от таблицы **customers** полей, имеющих отношение к адресу и сохранения их в отдельную таблицу **addresses**. Так же был создан сурагатный ключ, для таблицы **addresses**, для установления связи с таблицей customers (исходный первичный ключ **custimer_id** не используется в качестве первичного ключа в таблице **addresses**, во избежании потенциальных зависимостей **one-to-many**, **many-to-one** клиентов к адресам). Таким образом была устранена транзитивная зависимость.
 
-### Код нормализации данных представлен в ноутбуке [data_normalization.ipynb](https://github.com/timmyAlvice/MIPT-DataBase-Projects/blob/master/HW1/data_normalization.ipynb)
+### Код нормализации данных представлен в ноутбуке [data_normalization.ipynb](data_normalization.ipynb)
 
 ---
 
@@ -79,7 +79,7 @@ create table if not exists addresses (
 );
 ```
 
-### Так же код создания таблиц представлен в sql-script файле [table_cration.sql](https://github.com/timmyAlvice/MIPT-DataBase-Projects/blob/master/HW1/table_creation.sql)
+### Так же код создания таблиц представлен в sql-script файле [table_cration.sql](table_cration.sql)
 
 ---
 
@@ -96,4 +96,4 @@ create table if not exists addresses (
 ### 4. Таблица "addresses"
 ![](tables_screenshots/addresses.png)
 
-## Так же все скриншоты таблиц находятся в папке [tables_screenshots](https://github.com/timmyAlvice/MIPT-DataBase-Projects/tree/master/HW1/tables_screenshots)
+### Так же все скриншоты таблиц находятся в папке [tables_screenshots](tables_screenshots)
