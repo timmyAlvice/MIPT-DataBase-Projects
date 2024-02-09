@@ -15,6 +15,8 @@
 # №1 Структура БД:
 ![](database_structure.png)
 
+## Так же структура БД представлен в PDF формате в файле [database_structure.pdf](https://github.com/timmyAlvice/MIPT-DataBase-Projects/blob/master/HW1/database_structure.pdf)
+
 ---
 
 # №2 Нормализация БД:
