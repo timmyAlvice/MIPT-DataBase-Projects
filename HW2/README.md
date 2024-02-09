@@ -181,4 +181,6 @@ order by customer_id;
 ### Результат:
 ![](output_screenshots/8.png)
 
-### Так же код создания таблиц и запросов представлен в sql-script файле [table_creation_and_data_selection.sql](table_creation_and_data_selection.sql), а все скриншоты результатов запросов находятся в папке [output_screenshots](output_screenshots)
+### Код создания таблиц и запросов представлен в sql-script файле [table_creation_and_data_selection.sql](table_creation_and_data_selection.sql)
+### Все скриншоты результатов запросов находятся в папке [output_screenshots](output_screenshots)
+### Исходные данные в CSV формате представлены в папке [data](data)
