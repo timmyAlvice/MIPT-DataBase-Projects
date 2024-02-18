@@ -94,7 +94,7 @@ order by job_title;
 
 
 
-## 4. Вывести все бренды, которые закупают клиенты, работающие в сфере Financial Services
+## 4. Вывести все бренды, которые закупают клиенты, работающие в сфере Financial Services.
 
 ```sql
 select distinct brand from (

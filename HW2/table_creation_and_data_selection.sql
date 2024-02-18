@@ -1,5 +1,3 @@
--- table creation
-
 create table if not exists customer (
 	customer_id int4 primary key
 	,first_name varchar(50)
@@ -79,6 +77,7 @@ select distinct brand from (
 	join customer c
 		on t.customer_id = c.customer_id
 	where job_industry_category = 'Financial Services') sub_joined
+where brand is not null
 order by brand;
 
 
