@@ -203,9 +203,9 @@ order by customer_id;
 ```sql
 with days_deltas as (
 	select distinct c.customer_id,
-	   		        abs(t.transaction_date::date -
-			        lead(t.transaction_date::date) over by_customer)
-			        as days_delta
+					abs(t.transaction_date::date -
+					lead(t.transaction_date::date) over by_customer)
+					as days_delta
 		from transaction t 
 	join customer c 
 		on t.customer_id = c.customer_id 
